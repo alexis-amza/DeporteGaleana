@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.MostrarNoticiaActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/idCabeceraMostrarNoticias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCabecera"
+        android:padding="10dp">
+
+        <ImageButton
+            android:onClick="onClick"
+            android:id="@+id/idbtnRegresarMostrarNoticias"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/btn_regresar"
+            android:background="@color/colorTransparente" />
+
+        <ImageView
+            android:id="@+id/imgLogoNoticias"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/idbtnRegresarMostrarNoticias"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/logo_menu"/>
+
+        <ImageButton
+            android:onClick="onClick"
+            android:id="@+id/idbtnAyudaMostrarNoticas"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/btn_ayuda"
+            android:background="@color/colorTransparente"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/idtxtTituloNoticiaMostrarNoticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:text="Titulo del Aviso"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/idFechaNoticiaMostrarNoticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="0dp"
+            android:text="Fecha"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+
+        <TextView
+            android:id="@+id/idCuerpoNoticiaMostrarNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="0dp"
+            android:text="Cuerpo del aviso"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

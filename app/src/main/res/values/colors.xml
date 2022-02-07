@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0046FF</color>
+    <color name="colorPrimaryDark">#030000</color>
+    <color name="colorAccent">#00ACC1</color>
+
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorTransparente">#00FFFFFF</color>
+
+    <color name="colorPosiciones">#FFCD01</color>
+    <color name="colorPartidos">#3C87D0</color>
+    <color name="colorNoticias">#E83A2A</color>
+    <color name="colorGoleadores">#1B75BB</color>
+    <color name="colorAjustes">#2A3D4F</color>
+    <color name="colorAcercaDe">#58AADA</color>
+
+    <color name="colorInstruccionBienvenida">#000526</color>
+    <color name="colorInstruccionTablaGeneral">#FF1500</color>
+    <color name="colorInstruccionPartidos">#00FF3A</color>
+    <color name="colorInstruccionJornadas">#A10DFF</color>
+    <color name="colorInstruccionGoleadores">#FFFFFF</color>
+    <color name="colorInstruccionAjustes">#00FFD8</color>
+    <color name="colorInstruccionFinal">#FF3D00</color>
+
+    <color name="colorCabecera">#0046FF</color>
+    <color name="colorRosaProfundo">#FF1493</color>
+    <color name="colorCoral">#000000</color>
+    <color name="colorRojoNaranja">#FF4500</color>
+    <color name="colorPurpura">#800080</color>
+    <color name="colorTurquesaOscura">#00CED1</color>
+    <color name="colorVinoTinto">#5e2129</color>
+    <color name="colorChocolate">#EED09D</color>
+    <color name="colorRojo">#cc0000</color>
+    <color name="colorGrisClaro">#CDCDCD</color>
+
+    <color name="colorBtnLogOut">#58AADA</color>
+
+
+
+
+</resources>
