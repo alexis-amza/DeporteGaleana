@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.AgregarGoleadoresActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/idCabeceraGoleadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCabecera">
+
+        <ImageButton
+            android:id="@+id/idbtnRegresarGoleadores"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/btn_regresar"
+            android:background="@color/colorTransparente"/>
+
+        <ImageView
+            android:id="@+id/imgLogoGoleadores"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/idbtnRegresarGoleadores"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/logo_menu" />
+
+        <ImageButton
+            android:id="@+id/idbtnAyudaGoledores"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/btn_ayuda"
+            android:background="@color/colorTransparente"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/idScrollAgregarGoleador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:padding="20dp"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtAgregarGoleador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:text="Agregar Goleador"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/idtxtNombreAgregarGoleador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAgregarGoleador"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="0dp"
+                android:hint="Nombre del jugador"
+                android:textSize="15sp"
+                android:inputType="text"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/idtxtGolesAgregarGoleador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idtxtNombreAgregarGoleador"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:hint="Goles"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:textColor="@android:color/black"/>
+
+            <Spinner
+                android:id="@+id/idSpinnerEquiposAgregarGoleador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idtxtNombreAgregarGoleador"
+                android:layout_toEndOf="@+id/idtxtGolesAgregarGoleador"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="10dp"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/idtxtGolesAgregarGoleador"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/idbtnGuardarAgregarGoleador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_guardar"
+                    android:background="@color/colorTransparente"/>
+
+                <ImageButton
+                    android:id="@+id/idbtnActualizarAgregarGoleador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:src="@drawable/btn_actualizar"
+                    android:background="@color/colorTransparente"/>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/idRecyclerGoleadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"/>
+
+
+</LinearLayout>

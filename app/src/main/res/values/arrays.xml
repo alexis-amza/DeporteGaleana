@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tipo_tema">
+        <item>Claro</item>
+        <item>Obscuro</item>
+    </array>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="CUENTA">
+        <PreferenceScreen
+            android:title="Usuario"
+            android:icon="@drawable/logo_cuenta"
+            android:summary="Datos sobre tu cuenta de usuario">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.amza.deportegaleanaadministrador"
+                android:targetClass="com.amza.deportegaleanaadministrador.actividades.CuentaUsuarioActivity"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="PERSONAIZAR">
+
+        <PreferenceScreen
+            android:title="Tema"
+            android:icon="@drawable/ico_tema"
+            android:summary="Selecciona el tema de la aplicación">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.amza.deportegaleanaadministrador"
+                android:targetClass="com.amza.deportegaleanaadministrador.actividades.CambiarTemaActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="INFORMACIÓN">
+        <PreferenceScreen
+            android:title="Acerca De..."
+            android:icon="@drawable/logo_acercade"
+            android:summary="Conoce más sobre la aplicación">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.amza.deportegaleanaadministrador"
+                android:targetClass="com.amza.deportegaleanaadministrador.actividades.AcercaDeActivity"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

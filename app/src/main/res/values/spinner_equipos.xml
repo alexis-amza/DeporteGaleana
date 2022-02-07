@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="equipos_primera">
+        <item>Selecciona</item>
+        <item>Cosmos</item>
+        <item>Lobos</item>
+        <item>Fashion</item>
+        <item>Milan</item>
+        <item>Puerto</item>
+        <item>La Tribu</item>
+        <item>Sócrates</item>
+        <item>Leo Wilson</item>
+        <item>Calavera</item>
+    </string-array>
+
+    <string-array name="equipos_primera_agregar_partidos">
+        <item>Selecciona</item>
+        <item>Cosmos</item>
+        <item>Lobos</item>
+        <item>Fashion</item>
+        <item>Milan</item>
+        <item>Puerto</item>
+        <item>La Tribu</item>
+        <item>Sócrates</item>
+        <item>Leo Wilson</item>
+        <item>Calavera</item>
+        <item>Descansa</item>
+    </string-array>
+
+
+</resources>

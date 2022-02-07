@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_balon"/>
+
+        <TextView
+            android:id="@+id/idEquipoLocalListaAgregarPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Equipo Local"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="VS"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/idEquipoVisitanteListaAgregarPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Equipo Visitante"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ico_balon"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/idHoraListaAgregarPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/idFechaListaAgregarPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="00/00/0000"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/idLugarListaAgregarPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Lugar de juego"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/idimagenSeparacionListaAgregarPartido"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/separacion_lista"/>
+
+
+</LinearLayout>

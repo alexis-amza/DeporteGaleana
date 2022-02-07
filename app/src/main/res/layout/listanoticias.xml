@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idtxtTituloNoticiaLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/idImagenNoticiaLista"
+            android:text="Titulo Noticia"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/idCuerpoNoticiaLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idFechaNoticiaLista"
+            android:layout_marginTop="15dp"
+            android:text="Cuerpo Noticia"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"/>
+
+
+        <TextView
+            android:id="@+id/idFechaNoticiaLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idtxtTituloNoticiaLista"
+            android:layout_marginTop="10dp"
+            android:text="Fecha Noticia"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/idImagenNoticiaLista"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ico_lista_noticias"/>
+
+        <ImageView
+            android:id="@+id/idImagenSeparacionNoticiaLista"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_below="@+id/idCuerpoNoticiaLista"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/separacion_lista"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
